@@ -15,12 +15,12 @@
 
 $(document).on("click", function () {
   document.getElementById("my_audio").play();
-  console.log("Shaadi me zaroor aana");
+  console.log("audio started");
 });
 
 function pauseAudio() {
   document.getElementById("my_audio").pause();
-  console.log("Shaadi me pakka aana");
+  console.log("audio stopped");
   event.stopPropagation();
 }
 
